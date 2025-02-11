@@ -1,3 +1,13 @@
+libtasn1-6 (4.18.0-4ubuntu0.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service through inefficient algorithm.
+    - CVE-2024-12133-x.patch: Add caching and optimize algorithms in
+      lib/decoding.c, lib/element.c, lib/element.h, lib/int.h,
+      lib/parser_aux.c, and lib/structure.c.
+    - CVE-2024-12133
+
+ -- Hlib Korzhynskyy <hlib.korzhynskyy@canonical.com>  Tue, 11 Feb 2025 17:49:16 -0330
+
 libtasn1-6 (4.18.0-4build1) jammy; urgency=high
 
   * No change rebuild for ppc64el baseline bump.
